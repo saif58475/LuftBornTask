@@ -1,0 +1,46 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "experimentalDecorators": true, 
+    "emitDecoratorMetadata": true,
+    "types": [
+      "googlemaps"
+    ]
+  },
+  "files": [
+    "src/main.ts",
+    "src/polyfills.ts",
+  //   "./src/app/shared/Models/GetGovernorate.ts",
+  //   "src/app/shared/Models/InsertGovernorate.ts",
+  //   "./src/app/shared/Models/InsertCities.ts",
+  //   "./src/app/shared/Models/getCities.ts",
+  //   "./src/app/shared/Models/GetClient.ts",
+  //   "./src/app/shared/Models/InsertClient.ts",
+  //   "./src/app/shared/Models/UpdateClient.ts",
+  //   "./src/app/shared/Models/GetEmployee.ts",
+  //   "./src/app/shared/Models/InsertEmployee.ts",
+  //   "./src/app/shared/Models/IdNameList.ts",
+  //   "./src/app/shared/Models/Roles.ts",
+  //   "./src/app/shared/Models/Assign_ClientCustomer.ts",
+  //   "./src/app/shared/Models/ResponseRegister.ts",
+  //   "./src/app/shared/Models/CallClient.ts",
+  //   "./src/app/shared/Models/LoginResponse.ts",
+  //   "./src/app/shared/Models/getCitiesWithGovernorate.ts",
+  //   "./src/app/shared/Models/IdName.ts",
+  //   "./src/app/shared/Models/GetCall.ts",
+  //   "./src/app/shared/Models/Client_Agent_Report.ts",
+  //   "./src/app/shared/Models/Client_Report.ts",
+  //   "./src/app/shared/Models/Client_Call_Report.ts",
+  //   "./src/app/shared/Models/Client_Call_Report_input.ts",
+  //   "./src/app/shared/Models/Call_Start_End_Report_input.ts",
+  //   "./src/app/shared/Models/Stats_Report.ts",
+  //   "./src/app/shared/Models/Agent_ReportModel.ts",
+  //   "./src/app/shared/Models/CallReason_ReportModel.ts",
+  //   "./src/app/shared/Models/GraphData.ts"
+  ],
+  "include": [
+    "src/**/*.d.ts"
+  ]
+}

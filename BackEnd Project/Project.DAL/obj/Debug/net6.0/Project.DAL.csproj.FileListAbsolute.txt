@@ -1,0 +1,56 @@
+D:\seif\BackEnd\Project.PL\Project.DAL\bin\Debug\net6.0\Project.DAL.deps.json
+D:\seif\BackEnd\Project.PL\Project.DAL\bin\Debug\net6.0\Project.DAL.dll
+D:\seif\BackEnd\Project.PL\Project.DAL\bin\Debug\net6.0\Project.DAL.pdb
+D:\seif\BackEnd\Project.PL\Project.DAL\obj\Debug\net6.0\Project.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\seif\BackEnd\Project.PL\Project.DAL\obj\Debug\net6.0\Project.DAL.AssemblyInfoInputs.cache
+D:\seif\BackEnd\Project.PL\Project.DAL\obj\Debug\net6.0\Project.DAL.AssemblyInfo.cs
+D:\seif\BackEnd\Project.PL\Project.DAL\obj\Debug\net6.0\Project.DAL.csproj.CoreCompileInputs.cache
+D:\seif\BackEnd\Project.PL\Project.DAL\obj\Debug\net6.0\Project.DAL.dll
+D:\seif\BackEnd\Project.PL\Project.DAL\obj\Debug\net6.0\refint\Project.DAL.dll
+D:\seif\BackEnd\Project.PL\Project.DAL\obj\Debug\net6.0\Project.DAL.pdb
+D:\seif\BackEnd\Project.PL\Project.DAL\obj\Debug\net6.0\ref\Project.DAL.dll
+D:\seif\BackEnd\Project.PL\Project.DAL\bin\Debug\net6.0\Project.DAL.runtimeconfig.json
+D:\seif\BackEnd\Project.PL\Project.DAL\obj\Debug\net6.0\Project.DAL.csproj.AssemblyReference.cache
+D:\seif\BackEnd\Project.PL\Project.DAL\obj\Debug\net6.0\Project.DAL.genruntimeconfig.cache
+D:\BackEnd_Structure\patternsProject\Project.DAL\bin\Debug\net6.0\Project.DAL.deps.json
+D:\BackEnd_Structure\patternsProject\Project.DAL\bin\Debug\net6.0\Project.DAL.runtimeconfig.json
+D:\BackEnd_Structure\patternsProject\Project.DAL\bin\Debug\net6.0\Project.DAL.dll
+D:\BackEnd_Structure\patternsProject\Project.DAL\bin\Debug\net6.0\Project.DAL.pdb
+D:\BackEnd_Structure\patternsProject\Project.DAL\obj\Debug\net6.0\Project.DAL.csproj.AssemblyReference.cache
+D:\BackEnd_Structure\patternsProject\Project.DAL\obj\Debug\net6.0\Project.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\BackEnd_Structure\patternsProject\Project.DAL\obj\Debug\net6.0\Project.DAL.AssemblyInfoInputs.cache
+D:\BackEnd_Structure\patternsProject\Project.DAL\obj\Debug\net6.0\Project.DAL.AssemblyInfo.cs
+D:\BackEnd_Structure\patternsProject\Project.DAL\obj\Debug\net6.0\Project.DAL.csproj.CoreCompileInputs.cache
+D:\BackEnd_Structure\patternsProject\Project.DAL\obj\Debug\net6.0\Project.DAL.dll
+D:\BackEnd_Structure\patternsProject\Project.DAL\obj\Debug\net6.0\refint\Project.DAL.dll
+D:\BackEnd_Structure\patternsProject\Project.DAL\obj\Debug\net6.0\Project.DAL.pdb
+D:\BackEnd_Structure\patternsProject\Project.DAL\obj\Debug\net6.0\Project.DAL.genruntimeconfig.cache
+D:\BackEnd_Structure\patternsProject\Project.DAL\obj\Debug\net6.0\ref\Project.DAL.dll
+D:\Authorization Structure Project\Authorization Structure Project\Project.DAL\bin\Debug\net6.0\Project.DAL.deps.json
+D:\Authorization Structure Project\Authorization Structure Project\Project.DAL\bin\Debug\net6.0\Project.DAL.runtimeconfig.json
+D:\Authorization Structure Project\Authorization Structure Project\Project.DAL\bin\Debug\net6.0\Project.DAL.dll
+D:\Authorization Structure Project\Authorization Structure Project\Project.DAL\bin\Debug\net6.0\Project.DAL.pdb
+D:\Authorization Structure Project\Authorization Structure Project\Project.DAL\obj\Debug\net6.0\Project.DAL.csproj.AssemblyReference.cache
+D:\Authorization Structure Project\Authorization Structure Project\Project.DAL\obj\Debug\net6.0\Project.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Authorization Structure Project\Authorization Structure Project\Project.DAL\obj\Debug\net6.0\Project.DAL.AssemblyInfoInputs.cache
+D:\Authorization Structure Project\Authorization Structure Project\Project.DAL\obj\Debug\net6.0\Project.DAL.AssemblyInfo.cs
+D:\Authorization Structure Project\Authorization Structure Project\Project.DAL\obj\Debug\net6.0\Project.DAL.csproj.CoreCompileInputs.cache
+D:\Authorization Structure Project\Authorization Structure Project\Project.DAL\obj\Debug\net6.0\Project.DAL.dll
+D:\Authorization Structure Project\Authorization Structure Project\Project.DAL\obj\Debug\net6.0\refint\Project.DAL.dll
+D:\Authorization Structure Project\Authorization Structure Project\Project.DAL\obj\Debug\net6.0\Project.DAL.pdb
+D:\Authorization Structure Project\Authorization Structure Project\Project.DAL\obj\Debug\net6.0\Project.DAL.genruntimeconfig.cache
+D:\Authorization Structure Project\Authorization Structure Project\Project.DAL\obj\Debug\net6.0\ref\Project.DAL.dll
+D:\TaskLuftBorn\BackEnd Project\Project.DAL\bin\Debug\net6.0\Project.DAL.deps.json
+D:\TaskLuftBorn\BackEnd Project\Project.DAL\bin\Debug\net6.0\Project.DAL.runtimeconfig.json
+D:\TaskLuftBorn\BackEnd Project\Project.DAL\bin\Debug\net6.0\Project.DAL.dll
+D:\TaskLuftBorn\BackEnd Project\Project.DAL\bin\Debug\net6.0\Project.DAL.pdb
+D:\TaskLuftBorn\BackEnd Project\Project.DAL\obj\Debug\net6.0\Project.DAL.csproj.AssemblyReference.cache
+D:\TaskLuftBorn\BackEnd Project\Project.DAL\obj\Debug\net6.0\Project.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\TaskLuftBorn\BackEnd Project\Project.DAL\obj\Debug\net6.0\Project.DAL.AssemblyInfoInputs.cache
+D:\TaskLuftBorn\BackEnd Project\Project.DAL\obj\Debug\net6.0\Project.DAL.AssemblyInfo.cs
+D:\TaskLuftBorn\BackEnd Project\Project.DAL\obj\Debug\net6.0\Project.DAL.csproj.CoreCompileInputs.cache
+D:\TaskLuftBorn\BackEnd Project\Project.DAL\obj\Debug\net6.0\Project.DAL.dll
+D:\TaskLuftBorn\BackEnd Project\Project.DAL\obj\Debug\net6.0\refint\Project.DAL.dll
+D:\TaskLuftBorn\BackEnd Project\Project.DAL\obj\Debug\net6.0\Project.DAL.pdb
+D:\TaskLuftBorn\BackEnd Project\Project.DAL\obj\Debug\net6.0\Project.DAL.genruntimeconfig.cache
+D:\TaskLuftBorn\BackEnd Project\Project.DAL\obj\Debug\net6.0\ref\Project.DAL.dll

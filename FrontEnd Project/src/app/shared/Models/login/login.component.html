@@ -1,0 +1,103 @@
+
+         <!-- <ngx-spinner [fullScreen]="false" type="ball-clip-rotate-multiple" size="medium">
+            <p class="loading">Loading Awesomeness...</p>
+       </ngx-spinner>  -->
+     
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-7  p-0 d-none d-sm-block" >
+<img class="w-100 vh-100" 
+ src="../assets/images/logo/login.png"
+ alt="login page"
+/>
+  
+</div>
+<div class="col-lg-5  col-sm-12  ">
+ 
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col-12 p-0 ">
+         <div class="login-card">
+           <div>
+             
+             <div id="Sign-User" class="login-main ">
+               <div  class="text-center">
+                <img src="../assets/images/logo/login1.jpeg" alt="login page">
+               </div>
+               <form
+                 class="theme-form needs-validation"
+                 [formGroup]="person"
+                (ngSubmit)="onSubmit()"
+                 novalidate >
+               <div class="form-row">
+
+                 <label class="col-form-label col-12 "> <span>Email</span>   </label>
+ 
+                   <div class="col-12 col-sm-12">
+          
+                     <input
+                   class="form-control"
+                   required=""
+                   placeholder="ex: admin@gmail.com"
+                   formControlName="email"
+                 />
+                   </div>
+    
+               <div class="col-12 mb-0">
+ 
+                 <label class="col-form-label "> <span>Password</span>    </label>
+ 
+                 <div class="form-input position-relative">
+ 
+ 
+                   <input
+                     class="form-control"
+                     [type]="changetype? 'password' : 'text' "
+                     required=""
+                     placeholder="*********"
+                     formControlName="password"
+                 
+                     />
+                     <div class="show-hide" style="margin: -35px -5px 0 0;" (click)="showPassword()" *ngIf="!show"><span class="show text-primary" > </span>
+                     </div>
+                     <div class="show-hide" style="margin: -35px -5px 0 0;" (click)="showPassword()" *ngIf="show"><span class="hide text-primary" > </span>
+                     </div>
+                 </div>
+               </div>
+               </div>
+               
+ 
+               <div class="form-group mb-0 mt-3">
+ 
+                 <!-- ============================================================================================ -->
+                                              <!-- This is the remember me tag -->
+                 <!-- ============================================================================================= -->
+                 <button class="btn btn-primary btn-block w-100"   type="submit" >
+                 <label class="col-form-label "> 
+                   <span class="w-100">Login</span>  
+                 </label>
+                 </button>
+               </div>
+               </form>
+               
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+</div>
+</div>
+
+</div>
+
+
+<!-- <ngx-spinner
+[fullScreen]="false"
+type="ball-clip-rotate-multiple"
+size="medium"
+>
+<p class="loading">Loading Awesomeness...</p>
+</ngx-spinner> -->

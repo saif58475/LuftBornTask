@@ -1,0 +1,70 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header" style="padding-bottom: 5px !important">
+                    <div>
+                        <h5 class="pb-2">Insert Department</h5>
+                    </div>
+                    <ng-template >
+                        
+                    </ng-template>
+                </div>
+                <div class="card-body">
+                    <form class="needs-validation" autocomplete="off" 
+                    [formGroup] = "DepartmentForm"
+                    (ngSubmit)="onSubmit()" 
+                    novalidate>
+                        <div class="form-row">
+                            <!-- Name  -->
+                            <div class="col-6 mb-3">
+                                <label for="validation01"><span class="validation-required">*</span> Department Name</label>
+                                <input class="form-control" id="validation01" type="text" formControlName="Name"
+                                [tooltip]="fc.Name.errors?.required ? 'Field needed' : null"
+                                [class.is-valid]="fc.Name.valid && (fc.Name.touched)"
+                                [class.is-invalid]="fc.Name.invalid && (fc.Name.touched)"
+                                     required appDisableWeritingArabic
+                                     placeholder="Department Name"/>
+                            </div>
+                            <!-- Code  -->
+                            <div class="col-6 mb-3">
+                                <label for="validation01"><span class="validation-required">*</span> Code</label>
+                                <input class="form-control" id="validation01" type="text" formControlName="Code"
+                                [tooltip]="fc.Code.errors?.required ? 'Field needed' : null"
+                                [class.is-valid]="fc.Code.valid && (fc.Code.touched)"
+                                [class.is-invalid]="fc.Code.invalid && (fc.Code.touched)"
+                                     required onlyNumbers
+                                     placeholder="ex: 002"/>
+                            </div>
+                          
+                                <!-- to insert image for the department  -->
+              <div class="col-lg-6 my-4" style="padding: 1%;">
+                <img  src="{{ imageLogo }}" style="width: 60%; height: 220px;" class="image-style p-2" *ngIf="imageLogo != null"/>
+               <input type="file" accept="image/*" #file id="getLogo"
+                style="display: none" (change)="getLogoUrl($event)" />
+            <button type="button" onclick="document.getElementById('getLogo').click()"
+                class="btn btn-primary d-block"  style="width: 60%;">
+                    Department Image  
+            </button>    
+                        </div>
+                        </div>
+                        <br>
+                        <ng-template #elseBlock>
+                            <button [disabled]="button" class="btn btn-primary pull-right" type="submit">
+                               Save
+                            </button>
+                            </ng-template>
+                        <div *ngIf="update; else elseBlock">
+                            <button class="btn btn-primary pull-right" type="submit">
+                                Update
+                            </button>
+                       </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

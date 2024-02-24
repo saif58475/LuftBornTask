@@ -1,0 +1,61 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header" style="padding-bottom: 5px !important">
+                    <div class="row">
+                        <div class="col-6">
+                            <h5 class="pb-2">Departments</h5>
+                           <span>Sub-address</span>
+                        </div>
+
+                        <div class="col-6 header-titles">
+                            <a routerLink="/content/admin/InsertDepartment" class="d-block">
+                                <button class="btn btn-primary pull-right" type="button">
+                                    <span class="m-2">Insert Department</span>
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-block row">
+                    <div class="col-sm-12 col-lg-12 col-xl-12">
+                        <div class="table-responsive">
+                            <table class="table table-responsive-sm text-center">
+                                <thead>
+                                    <tr class=" ">
+                                        <th scope="col"></th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Code</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let department of Departments;let x = index">
+                                        <td scope="row" class="p-2">{{x+1}}</td>
+                                        <td class="p-2">{{department.name}}</td>
+                                        <td class="p-2">{{department.code}}</td>
+                                        <td class="font-style chose">
+                                            <!-- <ng-template #elseBlock>  -->
+                                                <button class="btn  pull-right"  style="color: red; padding: 7px"
+                                                (click)="delete(department.id)" >
+                                                <i class="fa fa-trash"></i>
+                                                   </button>
+                                            
+                                            <button class="btn pull-right"
+                                                style="color: rgba(35, 118, 241, 0.667); padding: 7px"
+                                                (click)="update(department)">
+                                                <i class="fa fa-pencil"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

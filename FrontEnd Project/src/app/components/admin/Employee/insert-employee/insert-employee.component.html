@@ -1,0 +1,77 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header" style="padding-bottom: 5px !important">
+                    <div>
+                        <h5 class="pb-2">Insert Department</h5>
+                    </div>
+                    <ng-template >
+                        
+                    </ng-template>
+                </div>
+                <div class="card-body">
+                    <form class="needs-validation" autocomplete="off" 
+                    [formGroup] = "EmployeeForm"
+                    (ngSubmit)="onSubmit()" 
+                    novalidate>
+                        <div class="form-row">
+                            <!-- Name  -->
+                            <div class="col-6 mb-3">
+                                <label for="validation01"><span class="validation-required">*</span> Name</label>
+                                <input class="form-control" id="validation01" type="text" formControlName="name"
+                                [tooltip]="fc.name.errors?.required ? 'Field needed' : null"
+                                [class.is-valid]="fc.name.valid && (fc.name.touched)"
+                                [class.is-invalid]="fc.name.invalid && (fc.name.touched)"
+                                     required appDisableWeritingArabic
+                                     placeholder="Employee Name"/>
+                            </div>
+                            <!-- Phone Number  -->
+                            <div class="col-6 mb-3">
+                                <label for="validation01"><span class="validation-required">*</span> Phone Number</label>
+                                <input class="form-control" id="validation01" type="text" formControlName="phoneNo"
+                                [tooltip]="fc.phoneNo.errors?.required ? 'Field needed' : null"
+                                [class.is-valid]="fc.phoneNo.valid && (fc.phoneNo.touched)"
+                                [class.is-invalid]="fc.phoneNo.invalid && (fc.phoneNo.touched)"
+                                     required onlyNumbers
+                                     placeholder="ex: 01xxxxxxxxx"/>
+                            </div>
+                           <!-- Department  -->
+                           <div class="col-lg-6 col-sm-12  mb-3">
+                            <label for="validationCustom05"><span class="validation-required">*</span> Department</label>
+                            <ng-select  [selectOnTab]="true" formControlName="departmentId"
+                                class="form-control p-0" placeholder="Select Department" id="validationCustom05">
+                                <ng-option *ngFor="let item of Departments" [value]="item.id">{{item.name}}</ng-option>
+                            </ng-select>
+                        </div>
+                                <!-- to insert image for the employee  -->
+              <div class="col-lg-6 my-4" style="padding: 1%;">
+                <img  src="{{ imageLogo }}" style="width: 60%; height: 220px;" class="image-style p-2" *ngIf="imageLogo != null"/>
+               <input type="file" accept="image/*" #file id="getLogo"
+                style="display: none" (change)="getLogoUrl($event)" />
+            <button type="button" onclick="document.getElementById('getLogo').click()"
+                class="btn btn-primary d-block"  style="width: 60%;">
+                    Employee Image  
+            </button>    
+                        </div>
+                        </div>
+                        <br>
+                        <ng-template #elseBlock>
+                            <button [disabled]="button" class="btn btn-primary pull-right" type="submit">
+                               Save
+                            </button>
+                            </ng-template>
+                        <div *ngIf="update; else elseBlock">
+                            <button class="btn btn-primarypull-right" type="submit">
+                                Update
+                            </button>
+                       </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,60 @@
+D:\seif\BackEnd\Project.PL\Project.BL\bin\Debug\net6.0\Project.BL.deps.json
+D:\seif\BackEnd\Project.PL\Project.BL\bin\Debug\net6.0\Project.BL.dll
+D:\seif\BackEnd\Project.PL\Project.BL\bin\Debug\net6.0\Project.BL.pdb
+D:\seif\BackEnd\Project.PL\Project.BL\obj\Debug\net6.0\Project.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\seif\BackEnd\Project.PL\Project.BL\obj\Debug\net6.0\Project.BL.AssemblyInfoInputs.cache
+D:\seif\BackEnd\Project.PL\Project.BL\obj\Debug\net6.0\Project.BL.AssemblyInfo.cs
+D:\seif\BackEnd\Project.PL\Project.BL\obj\Debug\net6.0\Project.BL.csproj.CoreCompileInputs.cache
+D:\seif\BackEnd\Project.PL\Project.BL\obj\Debug\net6.0\Project.BL.dll
+D:\seif\BackEnd\Project.PL\Project.BL\obj\Debug\net6.0\refint\Project.BL.dll
+D:\seif\BackEnd\Project.PL\Project.BL\obj\Debug\net6.0\Project.BL.pdb
+D:\seif\BackEnd\Project.PL\Project.BL\obj\Debug\net6.0\ref\Project.BL.dll
+D:\seif\BackEnd\Project.PL\Project.BL\obj\Debug\net6.0\Project.BL.csproj.AssemblyReference.cache
+D:\seif\BackEnd\Project.PL\Project.BL\bin\Debug\net6.0\Project.DAL.dll
+D:\seif\BackEnd\Project.PL\Project.BL\bin\Debug\net6.0\Project.DAL.pdb
+D:\seif\BackEnd\Project.PL\Project.BL\obj\Debug\net6.0\Project.BL.csproj.CopyComplete
+D:\BackEnd_Structure\patternsProject\Project.BL\bin\Debug\net6.0\Project.BL.deps.json
+D:\BackEnd_Structure\patternsProject\Project.BL\bin\Debug\net6.0\Project.BL.dll
+D:\BackEnd_Structure\patternsProject\Project.BL\bin\Debug\net6.0\Project.BL.pdb
+D:\BackEnd_Structure\patternsProject\Project.BL\bin\Debug\net6.0\Project.DAL.dll
+D:\BackEnd_Structure\patternsProject\Project.BL\bin\Debug\net6.0\Project.DAL.pdb
+D:\BackEnd_Structure\patternsProject\Project.BL\obj\Debug\net6.0\Project.BL.csproj.AssemblyReference.cache
+D:\BackEnd_Structure\patternsProject\Project.BL\obj\Debug\net6.0\Project.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\BackEnd_Structure\patternsProject\Project.BL\obj\Debug\net6.0\Project.BL.AssemblyInfoInputs.cache
+D:\BackEnd_Structure\patternsProject\Project.BL\obj\Debug\net6.0\Project.BL.AssemblyInfo.cs
+D:\BackEnd_Structure\patternsProject\Project.BL\obj\Debug\net6.0\Project.BL.csproj.CoreCompileInputs.cache
+D:\BackEnd_Structure\patternsProject\Project.BL\obj\Debug\net6.0\Project.BL.csproj.CopyComplete
+D:\BackEnd_Structure\patternsProject\Project.BL\obj\Debug\net6.0\Project.BL.dll
+D:\BackEnd_Structure\patternsProject\Project.BL\obj\Debug\net6.0\refint\Project.BL.dll
+D:\BackEnd_Structure\patternsProject\Project.BL\obj\Debug\net6.0\Project.BL.pdb
+D:\BackEnd_Structure\patternsProject\Project.BL\obj\Debug\net6.0\ref\Project.BL.dll
+D:\Authorization Structure Project\Authorization Structure Project\Project.BL\bin\Debug\net6.0\Project.BL.deps.json
+D:\Authorization Structure Project\Authorization Structure Project\Project.BL\bin\Debug\net6.0\Project.BL.dll
+D:\Authorization Structure Project\Authorization Structure Project\Project.BL\bin\Debug\net6.0\Project.BL.pdb
+D:\Authorization Structure Project\Authorization Structure Project\Project.BL\bin\Debug\net6.0\Project.DAL.dll
+D:\Authorization Structure Project\Authorization Structure Project\Project.BL\bin\Debug\net6.0\Project.DAL.pdb
+D:\Authorization Structure Project\Authorization Structure Project\Project.BL\obj\Debug\net6.0\Project.BL.csproj.AssemblyReference.cache
+D:\Authorization Structure Project\Authorization Structure Project\Project.BL\obj\Debug\net6.0\Project.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Authorization Structure Project\Authorization Structure Project\Project.BL\obj\Debug\net6.0\Project.BL.AssemblyInfoInputs.cache
+D:\Authorization Structure Project\Authorization Structure Project\Project.BL\obj\Debug\net6.0\Project.BL.AssemblyInfo.cs
+D:\Authorization Structure Project\Authorization Structure Project\Project.BL\obj\Debug\net6.0\Project.BL.csproj.CoreCompileInputs.cache
+D:\Authorization Structure Project\Authorization Structure Project\Project.BL\obj\Debug\net6.0\Project.BL.csproj.CopyComplete
+D:\Authorization Structure Project\Authorization Structure Project\Project.BL\obj\Debug\net6.0\Project.BL.dll
+D:\Authorization Structure Project\Authorization Structure Project\Project.BL\obj\Debug\net6.0\refint\Project.BL.dll
+D:\Authorization Structure Project\Authorization Structure Project\Project.BL\obj\Debug\net6.0\Project.BL.pdb
+D:\Authorization Structure Project\Authorization Structure Project\Project.BL\obj\Debug\net6.0\ref\Project.BL.dll
+D:\TaskLuftBorn\BackEnd Project\Project.BL\bin\Debug\net6.0\Project.BL.deps.json
+D:\TaskLuftBorn\BackEnd Project\Project.BL\bin\Debug\net6.0\Project.BL.dll
+D:\TaskLuftBorn\BackEnd Project\Project.BL\bin\Debug\net6.0\Project.BL.pdb
+D:\TaskLuftBorn\BackEnd Project\Project.BL\bin\Debug\net6.0\Project.DAL.dll
+D:\TaskLuftBorn\BackEnd Project\Project.BL\bin\Debug\net6.0\Project.DAL.pdb
+D:\TaskLuftBorn\BackEnd Project\Project.BL\obj\Debug\net6.0\Project.BL.csproj.AssemblyReference.cache
+D:\TaskLuftBorn\BackEnd Project\Project.BL\obj\Debug\net6.0\Project.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\TaskLuftBorn\BackEnd Project\Project.BL\obj\Debug\net6.0\Project.BL.AssemblyInfoInputs.cache
+D:\TaskLuftBorn\BackEnd Project\Project.BL\obj\Debug\net6.0\Project.BL.AssemblyInfo.cs
+D:\TaskLuftBorn\BackEnd Project\Project.BL\obj\Debug\net6.0\Project.BL.csproj.CoreCompileInputs.cache
+D:\TaskLuftBorn\BackEnd Project\Project.BL\obj\Debug\net6.0\Project.BL.csproj.CopyComplete
+D:\TaskLuftBorn\BackEnd Project\Project.BL\obj\Debug\net6.0\Project.BL.dll
+D:\TaskLuftBorn\BackEnd Project\Project.BL\obj\Debug\net6.0\refint\Project.BL.dll
+D:\TaskLuftBorn\BackEnd Project\Project.BL\obj\Debug\net6.0\Project.BL.pdb
+D:\TaskLuftBorn\BackEnd Project\Project.BL\obj\Debug\net6.0\ref\Project.BL.dll

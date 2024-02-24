@@ -1,0 +1,76 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header" style="padding-bottom: 5px !important">
+                    <div>
+                        <h5 class="pb-2">User</h5>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form class="needs-validation" autocomplete="off" 
+                    [formGroup] = "userForm"
+                    (ngSubmit)="onSubmit()" 
+                    novalidate>
+                        <div class="form-row">
+                            <!-- First Name  -->
+                            <div class="col-6 mb-3">
+                                <label for="validation01"><span class="validation-required">*</span> First Name</label>
+                                <input class="form-control" id="validation01" type="text" formControlName="firstName"
+                                [tooltip]="fc.firstName.errors?.required ? 'Field needed' : null"
+                                [class.is-valid]="fc.firstName.valid && (fc.firstName.touched)"
+                                [class.is-invalid]="fc.firstName.invalid && (fc.firstName.touched)"
+                                     required
+                                     placeholder="First Name"/>
+                            </div>
+                            <!-- Last Name  -->
+                            <div class="col-6 mb-3">
+                                <label for="validation01"><span class="validation-required">*</span> Last Name</label>
+                                <input class="form-control" id="validation01" type="text" formControlName="lastName"
+                                [tooltip]="fc.lastName.errors?.required ? 'Field needed' : null"
+                                [class.is-valid]="fc.lastName.valid && (fc.lastName.touched)"
+                                [class.is-invalid]="fc.lastName.invalid && (fc.lastName.touched)"
+                                     required
+                                     placeholder="Last Name"/>
+                            </div>
+                              <!-- email  -->
+                              <div class="col-6 mb-3">
+                                <label for="validation01"><span class="validation-required">*</span> Email</label>
+                                <input class="form-control" id="validation01" type="text" formControlName="email"
+                                [tooltip]="fc.email.errors?.required ? 'Field needed' : null"
+                                [class.is-valid]="fc.email.valid && (fc.email.touched)"
+                                [class.is-invalid]="fc.email.invalid && (fc.email.touched)"
+                                     required
+                                     placeholder="ex : example@gmail.com"/>
+                            </div>
+                            <!-- Password  -->
+                            <div class="col-6 mb-3">
+                                <label for="validation01"><span class="validation-required">*</span>  Password</label>
+                                <input class="form-control" id="validation01" type="text" formControlName="password"
+                                [tooltip]="fc.password.errors?.required ? 'Field needed' : null"
+                                [class.is-valid]="fc.password.valid && (fc.password.touched)"
+                                [class.is-invalid]="fc.password.invalid && (fc.password.touched)"
+                                     required
+                                     placeholder="ex : Ne_w12@34"/>
+                            </div>  
+                        </div>
+                        <br>
+                        <ng-template #elseBlock>
+                            <button [disabled]="button" class="btn btn-danger pull-right" type="submit">
+                               Save
+                            </button>
+                            </ng-template>
+                        <div *ngIf="update; else elseBlock">
+                            <button class="btn btn-danger pull-right" type="submit">
+                                Update
+                            </button>
+                       </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
